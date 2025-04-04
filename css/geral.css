@@ -13,35 +13,35 @@ body {
     margin: 0 auto;
     padding: 10px;
     background-color: white;
-    border: 3px solid #000000;
+    border: 3px solid #888888;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
 #topo {
-    border: 3px solid black;
+    border: 3px solid #888888;
     height: 100px;
     background-color: #f8c8dc;
     text-align: center;
-    line-height: 100px;
+    line-height: 50px;
     font-size: 24px;
     font-weight: bold;
   }
 #meio {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
     margin: 20px 0;
   }
 #esquerda, #centro, #direita {
     flex: 1;
     height: 200px;
-    border: 3px solid black;
+    border: 3px solid #888888;
     background-color: pink;
     text-align: center;
     line-height: 200px;
     font-weight: bold;
   }
 #rodape {
-    border: 3px solid black;
+    border: 3px solid #888888;
     height: 60px;
     background-color: #f8c8dc;
     text-align: center;
