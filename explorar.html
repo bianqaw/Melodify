@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link href="css/geral.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "website icon" type = "png" href = "c:\xampp\htdocs\img\Captura de tela 2025-05-05 163848.png">
+  <title>Melodify</title>
+  <style>
+  </style>
+</head>
+<body>
+  <div id="corpo">
+    <div id="topo">
+      <h1>Meloodify</h1>
+      <p>Músicas escolhidas com amor 🎧</p>
+    </div>
+    <section id="destaque">
+      <div id="spotify-container">
+        <iframe id="spotify-player"
+          src="https://open.spotify.com/embed/track/5nTtCOCds6I0PHMNtqelas"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+    <div id="botoes-musica">
+      <button class="btn-navegar" onclick="mudarMusica(-1)">⬅</button>
+      <button class="btn-navegar" onclick="mudarMusica(1)">➡</button>
+    </div>
+    <div id="rodape">
+      <a href="inicio.html"><button class="btn-play">⬅ VOLTAR</button></a>
+      © 2025 Melodify
+    </div>
+  </div>
+  <script>
+    const musicas = [
+      "https://open.spotify.com/embed/track/5nTtCOCds6I0PHMNtqelas", // música 1
+      "https://open.spotify.com/embed/track/3n3Ppam7vgaVa1iaRUc9Lp", // música 2
+      "https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P"  // música 3
+    ];
+    let musicaAtual = 0;
+
+
+    function mudarMusica(direcao) {
+      musicaAtual += direcao;
+      if (musicaAtual < 0) musicaAtual = musicas.length - 1;
+      if (musicaAtual >= musicas.length) musicaAtual = 0;
+
+
+      document.getElementById("spotify-player").src = musicas[musicaAtual];
+    }
+  </script>
+</body>
+</html>
