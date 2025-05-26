@@ -281,11 +281,9 @@ iframe#spotify-player {
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
-
 .btn-voltar:hover {
   background-color: #333;
 }
-
 #botao-voltar {
   margin-bottom: 20px; /* espaço entre botão e rodapé */
 }
@@ -300,12 +298,10 @@ iframe#spotify-player {
   flex-direction: column;
   gap: 15px;
 }
-
 #form-contato label {
   font-weight: bold;
   color: #333;
 }
-
 #form-contato input,
 #form-contato textarea {
   padding: 10px;
@@ -314,7 +310,6 @@ iframe#spotify-player {
   border-radius: 8px;
   resize: none;
 }
-
 #form-contato input:focus,
 #form-contato textarea:focus {
   border-color: #000;
