@@ -4,42 +4,41 @@
   <link href="css/geral.css" rel="stylesheet" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel = "website icon" type = "png" href = "imagens/Melodify.png">
-  <title>Melodify</title>
+  <link rel="website icon" type="png" href="imagens/Melodify.png">
+  <title>Fale Conosco - Melodify</title>
 </head>
 <body>
   <div id="corpo">
     <div id="topo">
-      <h1>Melodify</h1>
-      <p>Músicas escolhidas com amor 🎧</p>
+      <h1>Fale Conosco</h1>
+      <p>Tem dúvidas, sugestões ou elogios? Envie sua mensagem! 💌</p>
     </div>
 
-    <div id="menu">
-        <div class="botoes">
-          <a href="botao1.html"><button class="btn-play">▶ Home</button></a>
-          <a href="botao2.html"><button class="btn-play">▶ Artistas</button></a>
-          <a href="botao3.html"><button class="btn-play">▶ Playlists</button></a>
-          <a href="botao4.html"><button class="btn-play">▶ Videoclipes</button></a>
-          <a href="botao5.html"><button class="btn-play">▶ Fale Conosco</button></a>
-        </div>
-      </div>
-    <div id="conteudo-horizontal">
-      <div id="esquerda">
-      </div>
+    <div id="centro" style="display: flex; justify-content: center;">
+      <form id="form-contato" action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
 
-      <div id="centro">
-      </div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
 
-      <div id="direita">
-      </div>
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit" class="btn-play">Enviar</button>
+      </form>
     </div>
-    <div id="botao-voltar" style="text-align: center; margin-bottom: 20px;">
-      <a href="inicio.html"><button class="btn-voltar">← VOLTAR</button>
-      </div>
-      
-      <div id="rodape">
-        © 2025 Melodify
-      </div>
-    </div>  
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="inicio.html"><button class="btn-voltar">← VOLTAR</button></a>
+    </div>    
+
+    <div id="rodape">
+      © 2025 Melodify
+    </div>
+  </div>
 </body>
 </html>
