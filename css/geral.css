@@ -237,13 +237,6 @@ iframe#spotify-player {
   max-width: 450px;
   height: 380px;
 }
-#botoes-musica {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
 .btn-navegar {
   padding: 12px 24px;
   font-size: 16px;
