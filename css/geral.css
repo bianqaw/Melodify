@@ -308,3 +308,94 @@ iframe#spotify-player {
   border-color: #000;
   outline: none;
 }
+.pagina-artistas #centro {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.pagina-artistas #centro img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pagina-artistas #centro iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pagina-artistas #centro h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  color: #111;
+}
+
+.pagina-artistas #centro p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 10px;
+}
+.pagina-sobre #centro {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.pagina-sobre #centro h2 {
+  font-size: 28px;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.pagina-sobre #centro p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.pagina-sobre #centro img {
+  max-width: 200px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.videos-container {
+  display: flex;           
+  flex-wrap: wrap;        
+  gap: 20px;            
+  justify-content: center;
+}
+.video-box {
+  width: 500px;          
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.video-preview {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.btn-assistir {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
