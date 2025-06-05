@@ -42,5 +42,18 @@
       © 2025 Melodify
     </div>
   </div>
+  <script>
+    document.getElementById('form-contato').addEventListener('submit', function(event) {
+      const nome = document.getElementById('nome').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const assunto = document.getElementById('assunto').value.trim();
+      const mensagem = document.getElementById('mensagem').value.trim();
+
+      if (nome === "" || email === "" || assunto === "" || mensagem === "") {
+        alert("Todos os campos são obrigatórios. Por favor, preencha todos eles.");
+        event.preventDefault(); // Impede o envio do formulário
+      }
+    });
+  </script>
 </body>
 </html>
