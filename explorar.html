@@ -12,8 +12,10 @@
 <body>
   <div id="corpo">
     <div id="topo">
-      <h1>Meloodify</h1>
-      <p>Músicas escolhidas com amor 🎧</p>
+       <p>──── ୨୧ ────</p>
+        <h1>Melodify</h1>
+        <p>Músicas escolhidas com amor 🎧 ⸜(｡ᵔ ᵕ ᵔ )⸝♡</p>
+        <hr>
     </div>
     <section id="destaque">
       <div id="spotify-container">
@@ -21,7 +23,7 @@
       </div>
     </section>
     <div id="botao-voltar" style="text-align: center; margin-bottom: 20px;">
-        <a href="inicio.html"><button class="btn-voltar">← VOLTAR</button>
+        <a href="inicio.html"><button class="btn-voltar">❮ VOLTAR</button>
         </div>
         
         <div id="rodape">
@@ -30,23 +32,5 @@
       </div>  
     </div>
   </div>
-  <script>
-    const musicas = [
-      "https://open.spotify.com/embed/track/5nTtCOCds6I0PHMNtqelas", // música 1
-      "https://open.spotify.com/embed/track/3n3Ppam7vgaVa1iaRUc9Lp", // música 2
-      "https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P"  // música 3
-    ];
-    let musicaAtual = 0;
-
-
-    function mudarMusica(direcao) {
-      musicaAtual += direcao;
-      if (musicaAtual < 0) musicaAtual = musicas.length - 1;
-      if (musicaAtual >= musicas.length) musicaAtual = 0;
-
-
-      document.getElementById("spotify-player").src = musicas[musicaAtual];
-    }
-  </script>
 </body>
 </html>

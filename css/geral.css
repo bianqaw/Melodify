@@ -145,10 +145,6 @@ html, body {
   font-size: 14px;
   color: #666;
 }
-.card-musica audio {
-  margin-top: 10px;
-  width: 100%;
-}
 #artistas-destaque {
   margin-top: 60px;
 }
