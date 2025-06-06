@@ -304,6 +304,19 @@ iframe#spotify-player {
   border-color: #000;
   outline: none;
 }
+#form-contato select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+}
+
+#form-contato select:focus {
+  border-color: #000;
+  outline: none;
+}
 .pagina-artistas #centro {
   max-width: 800px;
   margin: 0 auto;
