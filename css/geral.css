@@ -451,3 +451,11 @@ iframe#spotify-player {
     padding: 0 10px;
   }
 }
+@media (max-width: 600px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
