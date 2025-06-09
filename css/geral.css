@@ -408,3 +408,46 @@ iframe#spotify-player {
   cursor: pointer;
   font-size: 14px;
 }
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  #form-contato {
+    padding: 20px;
+    max-width: 100%;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+
+  #form-contato input,
+  #form-contato textarea,
+  #form-contato select,
+  #form-contato button {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  #topo h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #topo p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .btn-play,
+  .btn-voltar {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  #centro {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+}
